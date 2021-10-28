@@ -1,0 +1,67 @@
+.bottom{
+    background-color: lavender;
+    width: 100%;
+}
+
+.tradeRecords{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.bottom table{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.bottom table tr{
+    text-align: justify;
+}
+
+.bottom table tr th{
+    width: 128px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.bottom table tr td{
+    width: 128px;
+    height: 60px;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.bottom table tr td:nth-child(2),
+.bottom table tr td:nth-child(4),
+.bottom table tr td:nth-child(5),
+.bottom table tr td:nth-child(7),
+.bottom table tr td:nth-child(8){
+    text-align: center;
+}
+
+.return{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.return button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.return button:hover{
+    background-color: #0dcaf0;
+    color: white;
+    border: 1px solid #0dcaf0;
+}

@@ -1,0 +1,29 @@
+.bottom{
+    background-color: lavender;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.fileUpload{
+    width: 1280px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.fileUpload button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.fileUpload button:hover{
+    background-color: #0dcaf0;
+    color: white;
+    border: 1px solid #0dcaf0;
+}

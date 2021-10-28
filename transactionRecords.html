@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transactionRecords</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/transactionRecords.css" />
+    <script type="text/javascript" src="js/transactionRecords.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class="top-center">
+        <div class="top-center-left"><h2>版权存储管理系统</h2></div>
+        <div class="top-center-right">
+            <ul>
+                <li><a href="main.html">系统首页</a></li>
+                <li><a href="addVideo.html">添加资源</a></li>
+                <li><a href="#">删除资源</a></li>
+                <li><a href="trade.html">查看他人</a></li>
+                <li><a href="login.html">退出系统</a></li>
+                <li id="username"></li>
+                <li><img src="./img/user.png" /></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="tradeRecords">交易记录</div>
+    <table border="1" id="tradeRecordsTable">
+        <tr>
+            <th>tradeHash</th>
+            <th>videoId</th>
+            <th>videoName</th>
+            <th>videoSize</th>
+            <th>videoPrice</th>
+            <th>videoHash</th>
+            <th>timeStamp</th>
+            <th>serverName</th>
+            <th>inputKey</th>
+            <th>receiveKey</th>
+        </tr>
+        <tbody id="tbody">
+        <!--动态生成表格-->
+        </tbody>
+    </table>
+    <div class="return">
+        <button type="button" id="returnToTrade">返回</button>
+    </div>
+</div>
+</body>
+</html>

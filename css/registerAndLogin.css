@@ -1,0 +1,55 @@
+body{
+    background-color: lavender;
+}
+
+.card{
+    position: relative;
+    margin: 12% auto;
+    width: 400px;
+    height: 320px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.card div{
+    position: relative;
+    margin: 6% auto;
+    width: 300px;
+    text-align: center;
+}
+
+.card div:nth-child(1){
+    margin-top: 10%;
+}
+
+.card div:nth-child(2) input{
+    width: 248px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+.card div:nth-child(3) button{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: lavender;
+    border:1px solid lavender;
+    cursor: pointer;
+}
+
+.card div:nth-child(3) button:hover{
+    background-color: #0dcaf0;
+    color: white;
+}
+
+.card div:nth-child(3) button:nth-child(2){
+    width: 170px;
+    height: 40px;
+    color: #999999;
+}
+
+.card div:nth-child(3) button:nth-child(2):hover a{
+    color: white;
+}

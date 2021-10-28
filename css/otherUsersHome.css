@@ -1,0 +1,101 @@
+.bottom{
+    background-color: lavender;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.bottom-top,
+.bottom-trade{
+    width: 1280px;
+    height: 30px;
+    /*line-height: 100px;*/
+    margin: 0 auto 20px auto;
+    padding-top: 20px;
+}
+
+.bottom-top select,
+.bottom-trade select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.bottom-top select:hover,
+.bottom-trade select:hover{
+    border: 2px solid #999999;
+    opacity: 1;
+}
+
+.bottom-top select:active,
+.bottom-trade select:active{
+    border: 2px solid #999999;
+    opacity: 1;
+}
+
+.bottom-top button,
+.bottom-trade button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.bottom-top button:hover,
+.bottom-trade button:hover{
+    background-color: #0dcaf0;
+    color: white;
+    border: 1px solid #0dcaf0;
+}
+
+.bottom-top span{
+    float: right;
+    height: 30px;
+}
+
+.bottom-top span a{
+    line-height: 30px;
+}
+
+.bottom-top span a:hover{
+    color: #0dcaf0;
+}
+
+.bottom-bottom{
+    background-color: lavender;
+    width: 100%;
+}
+
+.bottom-bottom table{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.bottom-bottom table tr{
+    text-align: justify;
+}
+
+.bottom-bottom table thead tr th{
+    width: 128px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.bottom-bottom table tbody tr td{
+    width: 128px;
+    height: 60px;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.bottom-trade{
+    display: none;
+}
+
+

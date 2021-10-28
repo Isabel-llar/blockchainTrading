@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/masterPage.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="top">
+    <div class="top-center">
+        <div class="top-center-left"><h2>版权存储管理系统</h2></div>
+        <div class="top-center-right">
+            <ul>
+                <li><a href="main.html">系统首页</a></li>
+                <li><a href="addVideo.html">添加资源</a></li>
+                <li><a href="#">删除资源</a></li>
+                <li><a href="trade.html">查看他人</a></li>
+                <li><a href="login.html">退出系统</a></li>
+                <li id="username"></li>
+                <li><img src="./img/user.png" /></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="bottom-top">
+        <div class="bottom-top-label">
+            <label id="nowHash"></label>
+        </div>
+        <div class="bottom-top-choose">
+            <div class="bottom-top-left">
+                <select id="chooseNode">
+
+                </select>
+                <button type="button" id="chooseVideo">选择</button>
+                <button type="button" id="chooseAllVideo">显示全部</button>
+            </div>
+            <div class="bottom-top-center">
+                <input type="text" id="price" /> 单位：eth
+                <button type="submit" id="updatePrice">修改价格</button>
+            </div>
+            <div class="bottom-top-right">
+                <select id="tradeSituation">
+                    <option value="1" >可交易</option>
+                    <option value="0">不可交易</option>
+                </select>
+                <button type="submit" id="updateTradable">修改状态</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-bottom">
+        <table border="1" id="tradeRecordsTable">
+            <thead>
+            <tr>
+                <th>videoId</th>
+                <th>videoName</th>
+                <th>videoSize</th>
+                <th>videoHash</th>
+                <th>videoPrice</th>
+                <th>videoCreationTime</th>
+                <th>videoAccessTime</th>
+                <th>videoModificationTime</th>
+                <th>signature</th>
+                <th>signatureTime</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            <!--动态生成表格-->
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

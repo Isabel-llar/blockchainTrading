@@ -1,0 +1,129 @@
+.bottom{
+    background-color: lavender;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.bottom-top{
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto 20px auto;
+    /*background-color: red;*/
+}
+
+.bottom-top-label{
+    width: 1000px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    /*background-color: lavender;*/
+}
+
+.bottom-top-choose{
+    width: 1280px;
+    height: 40px;
+    /*background-color: red;*/
+    margin: 0 auto;
+}
+
+.bottom-top-left,
+.bottom-top-center,
+.bottom-top-right{
+    width: 426px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    line-height: 40px;
+    /*background-color: lavender;*/
+}
+
+.bottom-top-left select,
+.bottom-top-right select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.bottom-top-left select:hover,
+.bottom-top-right select:hover{
+    border: 2px solid #999999;
+    opacity: 1;
+}
+
+.bottom-top-left select:active{
+    border: 2px solid #999999;
+    opacity: 1;
+}
+
+.bottom-top-center{
+    text-align: center;
+}
+
+.bottom-top-center input{
+    width: 150px;
+    height: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.bottom-top-center input:hover{
+    border: 1px solid #999999;
+    opacity: 1;
+}
+
+.bottom-top-left button,
+.bottom-top-center button,
+.bottom-top-right button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.bottom-top-left button:hover,
+.bottom-top-center button:hover,
+.bottom-top-right button:hover{
+    background-color: #0dcaf0;
+    color: white;
+    border: 1px solid #0dcaf0;
+}
+
+.bottom-top-right{
+    text-align: right;
+}
+
+.bottom-bottom{
+    background-color: lavender;
+    width: 100%;
+}
+
+.bottom-bottom table{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.bottom-bottom table tr{
+    text-align: justify;
+}
+
+.bottom-bottom table thead tr th{
+    width: 128px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.bottom-bottom table tbody tr td{
+    width: 128px;
+    height: 60px;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
